@@ -38,7 +38,9 @@
   }
 }
 @media only screen and (max-width: 575.98px) {
-  
+  .first-outer {
+    display:none;
+  }
   /* BIG IMAGE */
   .big-image-hover h1 {
     font-size: 16px !important;
@@ -53,9 +55,7 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
   /*HEADER */
-  .second-outer,.third-outer, .fourth-outer {
-    display:block;
-  }
+  
   .h-contact-icons,
   .h-contact-info {
     display: block;
