@@ -2,7 +2,7 @@
         <div class="container">
           <div class="top-bar">
             <div class="logo">
-              <a href="http://terzov.reklamatavi.com/"><img src="img/logo.jpg" alt="Терзов" class="img-fluid" /></a>
+              <a href="http://terzov.reklamatavi.com/"><img src="img/logo.png" alt="Терзов" class="img-fluid" /></a>
             </div>
             <div class="top-contacts">
               <div class="h-outer-wrapper first-outer">
