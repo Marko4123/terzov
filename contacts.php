@@ -17,7 +17,7 @@ $page = "contacts";
             <div class="container">
                 <div class="contact-form-wrapper">
                     <h3>Изпратете ни съобщение</h3>
-                    <form action="http://terzov.reklamatavi.com/test/contacts" id="frmContact">
+                    <form action="http://terzov.reklamatavi.com/contacts" id="frmContact">
                         <div class="form-group">
                             <label for="name">Вашето име:</label>
                             <input type="text" class="form-control" id="name" name="name">
