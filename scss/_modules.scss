@@ -194,3 +194,21 @@
 .strong-text {
   font-weight: 700;
 }
+.validation-error {
+  background: #fcc;
+  border: 1px solid #f99;
+  color: #d01313;
+  padding: 10px;
+}
+.validation-error p,
+.mail-sent-ok p {
+  margin-bottom: 0;
+}
+.mail-sent-ok {
+  background: #eafac0;
+  border: 1px solid #b1cf67;
+  color: #7ba411;
+  position: relative;
+  padding: 10px;
+  margin-top: 20px;
+}
