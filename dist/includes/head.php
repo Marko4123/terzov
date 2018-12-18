@@ -8,7 +8,7 @@
       content="Фирма Терзов ЕООД е с над 20 годишна практика в областта на отдаването на строителната механизация. Фирмата предлага Товаро-разтоварна дейност, изкопна дейност, доставка на строителни и инертни материали, извозване на строителни отпадъци и земни материали, вертикални планировки, обратни насипи, превозване на товари. Терзов ЕООД разполага с автокранове, бордови камион с кран, самосвал с кран, самосвал, комбиниран багер, мини челен товарач, вибро валяк."
     />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
     <?php if ($page == "machines" || $page == "gallery") {echo '<link rel="stylesheet" href="css/lightbox.min.css" />';} ?>
     <?php 
     switch ($page) {
@@ -33,7 +33,7 @@
     ?>
     
     <meta property="fb:app_id" content="743902412647704" />
-    <meta property="og:url" content="http://terzov.reklamatavi.com/test" />
+    <meta property="og:url" content="http://terzov.reklamatavi.com" />
     <meta property="og:type" content="website" />
     <meta
       property="og:description"
@@ -42,6 +42,6 @@
     <meta property="og:title" content="Терзов ЕООД" />
     <meta
       property="og:image"
-      content="http://terzov.reklamatavi.com/test/img/fb-cover.jpg"
+      content="http://terzov.reklamatavi.com/img/fb-cover.jpg"
     />
   </head>

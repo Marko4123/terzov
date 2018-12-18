@@ -2,7 +2,7 @@
         <div class="container">
           <div class="top-bar">
             <div class="logo">
-              <a href="http://terzov.reklamatavi.com/test/"><img src="img/logo.jpg" alt="Терзов" class="img-fluid" /></a>
+              <a href="http://terzov.reklamatavi.com/"><img src="img/logo.jpg" alt="Терзов" class="img-fluid" /></a>
             </div>
             <div class="top-contacts">
               <div class="h-outer-wrapper">
@@ -11,7 +11,7 @@
                 ></span>
                 <ul class="h-contact-info">
                   <li class="h-sm-header">Местоположение</li>
-                  <li class="h-strong"><a href="http://terzov.reklamatavi.com/test/contacts">гр. София</a></li>
+                  <li class="h-strong"><a href="http://terzov.reklamatavi.com/contacts">гр. София</a></li>
                 </ul>
               </div>
               <div class="h-outer-wrapper">
@@ -49,13 +49,13 @@
               <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav nav-fill w-100">
                   <li class="nav-item <?php if ($page == "index") { echo 'active';} else {echo '';} ?>">
-                    <a class="nav-link" href="http://terzov.reklamatavi.com/test/">Начало</a>
+                    <a class="nav-link" href="http://terzov.reklamatavi.com/">Начало</a>
                   </li>
                   <li class="nav-item <?php if ($page == "machines") { echo 'active';} else {echo '';} ?>">
-                    <a class="nav-link" href="http://terzov.reklamatavi.com/test/machines">Видове техника</a>
+                    <a class="nav-link" href="http://terzov.reklamatavi.com/machines">Видове техника</a>
                   </li>
                   <li class="nav-item <?php if ($page == "services") { echo 'active';} else {echo '';} ?>">
-                    <a class="nav-link" href="http://terzov.reklamatavi.com/test/services">Услуги</a>
+                    <a class="nav-link" href="http://terzov.reklamatavi.com/services">Услуги</a>
                   </li>
                   <!-- Dropdown -->
                   <li class="nav-item dropdown">
@@ -68,19 +68,19 @@
                       Галерия
                     </a>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item <?php if ($page1 == "avtokranove") { echo 'active';} else {echo '';} ?>" href="http://terzov.reklamatavi.com/test/avtokranove">Автокранове</a>
-                      <a class="dropdown-item <?php if ($page1 == "kamion-s-kran") { echo 'active';} else {echo '';} ?>" href="http://terzov.reklamatavi.com/test/kamion-s-kran"
+                      <a class="dropdown-item <?php if ($page1 == "avtokranove") { echo 'active';} else {echo '';} ?>" href="http://terzov.reklamatavi.com/avtokranove">Автокранове</a>
+                      <a class="dropdown-item <?php if ($page1 == "kamion-s-kran") { echo 'active';} else {echo '';} ?>" href="http://terzov.reklamatavi.com/kamion-s-kran"
                         >Бордови камион с кран</a
                       >
-                      <a class="dropdown-item <?php if ($page1 == "samosval-s-kran") { echo 'active';} else {echo '';} ?>" href="http://terzov.reklamatavi.com/test/samosval-s-kran">Самосвал с кран</a>
-                      <a class="dropdown-item <?php if ($page1 == "samosval") { echo 'active';} else {echo '';} ?>" href="http://terzov.reklamatavi.com/test/samosval">Самосвал</a>
-                      <a class="dropdown-item <?php if ($page1 == "bager") { echo 'active';} else {echo '';} ?>" href="http://terzov.reklamatavi.com/test/bager">Комбиниран багер</a>
-                      <a class="dropdown-item <?php if ($page1 == "tovarach") { echo 'active';} else {echo '';} ?>" href="http://terzov.reklamatavi.com/test/tovarach">Мини челен товарач</a>
-                      <a class="dropdown-item <?php if ($page1 == "valiak") { echo 'active';} else {echo '';} ?>" href="http://terzov.reklamatavi.com/test/valiak">Вибро валяк</a>
+                      <a class="dropdown-item <?php if ($page1 == "samosval-s-kran") { echo 'active';} else {echo '';} ?>" href="http://terzov.reklamatavi.com/samosval-s-kran">Самосвал с кран</a>
+                      <a class="dropdown-item <?php if ($page1 == "samosval") { echo 'active';} else {echo '';} ?>" href="http://terzov.reklamatavi.com/samosval">Самосвал</a>
+                      <a class="dropdown-item <?php if ($page1 == "bager") { echo 'active';} else {echo '';} ?>" href="http://terzov.reklamatavi.com/bager">Комбиниран багер</a>
+                      <a class="dropdown-item <?php if ($page1 == "tovarach") { echo 'active';} else {echo '';} ?>" href="http://terzov.reklamatavi.com/tovarach">Мини челен товарач</a>
+                      <a class="dropdown-item <?php if ($page1 == "valiak") { echo 'active';} else {echo '';} ?>" href="http://terzov.reklamatavi.com/valiak">Вибро валяк</a>
                     </div>
                   </li>
                   <li class="nav-item <?php if ($page == "contacts") { echo 'active';} else {echo '';} ?>">
-                    <a class="nav-link" href="http://terzov.reklamatavi.com/test/contacts">Контакти</a>
+                    <a class="nav-link" href="http://terzov.reklamatavi.com/contacts">Контакти</a>
                   </li>
                 </ul>
               </div>

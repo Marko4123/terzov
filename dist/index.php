@@ -35,7 +35,7 @@ $page = "index";
           <div class="container">
             <div class="quick-links-row row">
               <div class="quick-links-box col-md-6 col-lg-4">
-                <a href="http://terzov.reklamatavi.com/test/machines#carcranes">
+                <a href="http://terzov.reklamatavi.com/machines#carcranes">
                   <div class="quick-link">
                     <img
                       src="img/autocrane.png"
@@ -47,7 +47,7 @@ $page = "index";
                 </a>
               </div>
               <div class="quick-links-box col-md-6 col-lg-4">
-                <a href="http://terzov.reklamatavi.com/test/machines#dumpers">
+                <a href="http://terzov.reklamatavi.com/machines#dumpers">
                   <div class="quick-link">
                     <img
                       src="img/dumpers.png"
@@ -59,7 +59,7 @@ $page = "index";
                 </a>
               </div>
               <div class="quick-links-box col-md-6 col-lg-4">
-                <a href="http://terzov.reklamatavi.com/test/machines#excavator">
+                <a href="http://terzov.reklamatavi.com/machines#excavator">
                   <div class="quick-link">
                     <img
                       src="img/excavator.png"
