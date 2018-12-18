@@ -8,7 +8,6 @@ body {
   height: 100%;
   display: flex;
 }
-
 #wrapper {
   position: relative;
   min-height: 100vh;
@@ -58,4 +57,7 @@ button:focus {
 }
 .section p {
   margin-bottom: 1em;
+}
+main {
+  flex: 1 0 auto;
 }

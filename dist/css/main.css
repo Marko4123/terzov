@@ -185,6 +185,9 @@ button:focus {
 .section p {
   margin-bottom: 1em; }
 
+main {
+  flex: 1 0 auto; }
+
 header {
   background: url(../img/header-bg.jpg) no-repeat center center;
   background-size: cover;
