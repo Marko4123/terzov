@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=cyrillic,cyrillic-ext");
+body {
+  background: url(../img/bg.jpg) repeat;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #545454;
+  height: 100%;
+  display: flex;
+}
+
+#wrapper {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.top-btn {
+  background: url(../img/sign_reverse_turn_right.png) no-repeat;
+  width: 48px;
+  height: 48px;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+}
+button:focus {
+  outline: none;
+}
+.title {
+  text-align: center;
+  border-bottom: 3px solid #d3c473;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.title h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.modal-header h5 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.anchor {
+  display: block;
+  height: 140px;
+  margin-top: -140px;
+  visibility: hidden;
+}
+
+.section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.section p {
+  margin-bottom: 1em;
+}

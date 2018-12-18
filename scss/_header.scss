@@ -1,0 +1,118 @@
+header {
+  background: url(../img/header-bg.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+}
+
+.logo {
+  float: left;
+}
+.top-contacts {
+  float: right;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+.h-outer-wrapper {
+  display: inline-block;
+  vertical-align: top;
+}
+/* Style icons */
+.h-contact-icons {
+  display: inline-block;
+  min-width: 45px;
+  font-size: 36px;
+  vertical-align: middle;
+}
+.h-contact-icons i {
+  color: #d3c473;
+}
+.h-contact-icons i:hover {
+  color: #57c2f9;
+}
+
+.h-contact-info {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+ul.h-contact-info {
+  margin-bottom: 0px !important;
+}
+.h-sm-header {
+  font-size: 10px;
+}
+.h-strong {
+  font-weight: 700;
+}
+/* Top contacts links style */
+.top-contacts a {
+  color: #545454 !important;
+  text-decoration: none !important;
+}
+
+/* NAVIGATION STYLE */
+#navigation {
+  margin-top: 20px;
+}
+/* Change bg nav */
+.nav-custom-bg {
+  background-color: #202e31 !important;
+  padding: 0 !important;
+  line-height: 40px;
+}
+/*Remove padding of navbar*/
+/*Change links color and background*/
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff !important;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/*Change links color and bg on hover anf focus*/
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+  background: #0094da;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+/*Change color and bg active link*/
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: #fff;
+  background: #0094da;
+}
+/*Change background dropdown-menu*/
+.dropdown-menu {
+  background-color: #202e31 !important;
+}
+/*Change style of dropdown links*/
+.dropdown-item {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*Change color and bf of dropdown links on hover abd focus*/
+.dropdown-item:focus,
+.dropdown-item:hover,
+.dropdown-item:active {
+  color: #fff !important;
+  background: #0094da !important;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+/* Active link dropdown menu */
+.dropdown-menu > .active {
+  color: #fff !important;
+  background: #0094da !important;
+}

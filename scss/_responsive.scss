@@ -1,0 +1,57 @@
+@media only screen and (max-width: 991.98px) {
+  /*HEADER */
+  .logo,
+  .top-contacts {
+    float: none !important;
+  }
+  /* BIG IMAGE */
+  .big-image-hover {
+    background-color: rgba(211, 196, 115, 0.8);
+    border: 3px solid #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 40px;
+  }
+  /* CONTACTS */
+  .contact-form-wrapper,
+  .under-form-wrapper {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  /*HEADER */
+  .h-outer-wrapper {
+    display: block;
+  }
+  /* CONTACTS */
+  .sm-contacts-outer {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  /*HEADER */
+  .h-outer-wrapper {
+    display: block;
+  }
+  .h-contact-icons,
+  .h-contact-info {
+    display: block;
+  }
+  /* BIG IMAGE */
+  .big-image-hover h1 {
+    font-size: 16px !important;
+  }
+  /* CONTACTS */
+  .sm-contacts-info,
+  .sm-contacts-icon {
+    display: block;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 480px) {
+  .big-image-hover {
+    display: none;
+  }
+}
