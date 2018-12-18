@@ -200,7 +200,7 @@ header {
 
 .top-contacts {
   float: right;
-  margin-top: 15px;
+  margin-top: 25px;
   text-transform: uppercase; }
 
 .h-outer-wrapper {
@@ -210,8 +210,8 @@ header {
 /* Style icons */
 .h-contact-icons {
   display: inline-block;
-  min-width: 45px;
-  font-size: 36px;
+  min-width: 30px;
+  font-size: 20px;
   vertical-align: middle; }
 
 .h-contact-icons i {
@@ -232,7 +232,8 @@ ul.h-contact-info {
   font-size: 10px; }
 
 .h-strong {
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 14px; }
 
 /* Top contacts links style */
 .top-contacts a {
@@ -446,7 +447,7 @@ ul.h-contact-info {
   background-size: cover; }
 
 .contact-form-wrapper {
-  width: 70%;
+  width: 80%;
   background: #fff;
   padding: 10px; }
 
@@ -461,19 +462,20 @@ ul.h-contact-info {
 
 .under-form-wrapper {
   background: #202e31;
-  width: 70%;
+  width: 80%;
   color: #fff;
   padding: 10px; }
 
 .sm-contacts-outer {
   display: inline-block;
   vertical-align: top;
-  padding-right: 45px; }
+  padding-right: 35px;
+  margin-bottom: 10px; }
 
 .sm-contacts-icon {
   display: inline-block;
   vertical-align: middle;
-  width: 40px;
+  width: 30px;
   font-size: 26px; }
 
 .sm-contacts-info {
@@ -543,6 +545,10 @@ footer a:hover {
   .logo,
   .top-contacts {
     float: none !important; }
+  .top-contacts {
+    margin-top: 10px; }
+  .logo {
+    display: none; }
   /* BIG IMAGE */
   .big-image-hover {
     background-color: rgba(211, 196, 115, 0.8);
@@ -558,19 +564,13 @@ footer a:hover {
 @media only screen and (max-width: 767.98px) {
   /*HEADER */
   .h-outer-wrapper {
-    display: block; }
+    margin-bottom: 10px; }
   /* CONTACTS */
   .sm-contacts-outer {
     display: block;
     margin-bottom: 20px; } }
 
 @media only screen and (max-width: 575.98px) {
-  /*HEADER */
-  .h-outer-wrapper {
-    display: block; }
-  .h-contact-icons,
-  .h-contact-info {
-    display: block; }
   /* BIG IMAGE */
   .big-image-hover h1 {
     font-size: 16px !important; }
@@ -581,5 +581,11 @@ footer a:hover {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
+  /*HEADER */
+  .second-outer, .third-outer, .fourth-outer {
+    display: block; }
+  .h-contact-icons,
+  .h-contact-info {
+    display: block; }
   .big-image-hover {
     display: none; } }

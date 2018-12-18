@@ -67,6 +67,14 @@ $page = "contacts";
                             </ul>
 
                         </div>
+                        <div class="sm-contacts-outer">
+                        <span class="sm-contacts-icon"><i class="fab fa-facebook-square"></i></span>
+                            <ul class="sm-contacts-info">
+                                <li class="sm-text">Последвайте ни</li>
+                                <li class="strong-text"><a href="https://goo.gl/ArJRMJ" target="_blank">Facebook</a></li>
+                            </ul>
+
+                        </div>
                 </div>
             </div>
         </div>

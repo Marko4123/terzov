@@ -11,7 +11,7 @@ header {
 }
 .top-contacts {
   float: right;
-  margin-top: 15px;
+  margin-top: 25px;
   text-transform: uppercase;
 }
 .h-outer-wrapper {
@@ -21,8 +21,8 @@ header {
 /* Style icons */
 .h-contact-icons {
   display: inline-block;
-  min-width: 45px;
-  font-size: 36px;
+  min-width: 30px;
+  font-size: 20px;
   vertical-align: middle;
 }
 .h-contact-icons i {
@@ -45,6 +45,7 @@ ul.h-contact-info {
 }
 .h-strong {
   font-weight: 700;
+  font-size:14px;
 }
 /* Top contacts links style */
 .top-contacts a {

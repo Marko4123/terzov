@@ -9,7 +9,7 @@
             </p>
           </div>
           <div class="social">
-            <a href=""><img src="img/facebook_2.png" alt="Facebook"/></a>
+            <a href="https://goo.gl/ArJRMJ" target="_blank"><img src="img/facebook_2.png" alt="Facebook"/></a>
           </div>
           <div style="clear:both;"></div>
         </div>

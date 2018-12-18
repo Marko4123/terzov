@@ -5,7 +5,7 @@
               <a href="http://terzov.reklamatavi.com/"><img src="img/logo.jpg" alt="Терзов" class="img-fluid" /></a>
             </div>
             <div class="top-contacts">
-              <div class="h-outer-wrapper">
+              <div class="h-outer-wrapper first-outer">
                 <span class="h-contact-icons">
                   <i class="fas fa-map-marker-alt"></i
                 ></span>
@@ -14,7 +14,7 @@
                   <li class="h-strong"><a href="http://terzov.reklamatavi.com/contacts">гр. София</a></li>
                 </ul>
               </div>
-              <div class="h-outer-wrapper">
+              <div class="h-outer-wrapper second-outer">
                 <span class="h-contact-icons"
                   ><i class="fas fa-phone-square"></i
                 ></span>
@@ -23,13 +23,22 @@
                   <li class="h-strong"><a href="tel:0878259515">0878 259 515</a></li>
                 </ul>
               </div>
-              <div class="h-outer-wrapper">
+              <div class="h-outer-wrapper third-outer">
                 <span class="h-contact-icons">
                   <i class="fas fa-envelope-square"></i
                 ></span>
                 <ul class="h-contact-info">
                   <li class="h-sm-header">E-mail</li>
                   <li class="h-strong"><a href="mailto:terzov_eood@abv.bg">terzov_eood@abv.bg</a></li>
+                </ul>
+              </div>
+              <div class="h-outer-wrapper fourth-outer">
+                <span class="h-contact-icons">
+                <i class="fab fa-facebook-square"></i>
+                </span>
+                <ul class="h-contact-info">
+                  <li class="h-sm-header">Последвайте ни</li>
+                  <li class="h-strong"><a href="https://goo.gl/ArJRMJ" target="_blank">Facebook</a></li>
                 </ul>
               </div>
             </div>
