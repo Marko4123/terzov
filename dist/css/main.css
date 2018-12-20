@@ -148,7 +148,7 @@ body {
   width: 48px;
   height: 48px;
   position: fixed;
-  bottom: 70px;
+  bottom: 100px;
   right: 20px;
   overflow: hidden;
   z-index: 999;
@@ -157,9 +157,23 @@ body {
 button:focus {
   outline: none; }
 
+.btn-primary {
+  color: #fff;
+  background-color: #1954a0 !important;
+  border-color: #1954a0 !important; }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ffd781 !important;
+  border-color: #ffd781 !important; }
+
+.btn-primary:focus {
+  box-shadow: none !important;
+  outline: none !important; }
+
 .title {
   text-align: center;
-  border-bottom: 3px solid #d3c473;
+  border-bottom: 3px solid #fed36d;
   padding-bottom: 10px;
   margin-bottom: 20px; }
 
@@ -200,7 +214,7 @@ header {
 
 .top-contacts {
   float: right;
-  margin-top: 50px;
+  margin-top: 20px;
   text-transform: uppercase; }
 
 .h-outer-wrapper {
@@ -215,10 +229,10 @@ header {
   vertical-align: middle; }
 
 .h-contact-icons i {
-  color: #d3c473; }
+  color: #1954a0; }
 
 .h-contact-icons i:hover {
-  color: #57c2f9; }
+  color: #fed36d; }
 
 .h-contact-info {
   display: inline-block;
@@ -246,7 +260,7 @@ ul.h-contact-info {
 
 /* Change bg nav */
 .nav-custom-bg {
-  background-color: #202e31 !important;
+  background-color: #1954a0 !important;
   padding: 0 !important;
   line-height: 40px; }
 
@@ -264,7 +278,7 @@ ul.h-contact-info {
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #fff;
-  background: #0094da;
+  background: #fed36d;
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -webkit-transition: all 500ms ease;
@@ -274,25 +288,25 @@ ul.h-contact-info {
 /*Change color and bg active link*/
 .navbar-dark .navbar-nav .active > .nav-link {
   color: #fff;
-  background: #0094da; }
+  background: #fed36d; }
 
 /*Change background dropdown-menu*/
 .dropdown-menu {
-  background-color: #202e31 !important; }
+  background-color: #1954a0 !important; }
 
 /*Change style of dropdown links*/
 .dropdown-item {
   color: #fff !important;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 600; }
+  font-weight: 600 !important; }
 
 /*Change color and bf of dropdown links on hover abd focus*/
 .dropdown-item:focus,
 .dropdown-item:hover,
 .dropdown-item:active {
   color: #fff !important;
-  background: #0094da !important;
+  background: #fed36d !important;
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -webkit-transition: all 500ms ease;
@@ -302,35 +316,26 @@ ul.h-contact-info {
 /* Active link dropdown menu */
 .dropdown-menu > .active {
   color: #fff !important;
-  background: #0094da !important; }
+  background: #fed36d !important; }
 
 /* BIG IMAGE MODULE */
-#big-image {
-  position: relative;
-  width: 100%;
-  height: auto; }
-
 #big-image img {
   width: 100%;
   height: auto; }
 
-.big-image-hover {
-  position: absolute;
-  width: 50%;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  top: 20px;
-  text-align: center; }
+#big-image .container {
+  line-height: 0; }
 
-.big-image-hover h1 {
+/* SHORT DESCRIPTION MODULE */
+#short-description h1 {
   font-size: 25px;
-  font-weight: normal !important;
-  text-transform: uppercase;
-  font-style: italic; }
+  margin-bottom: 20px;
+  text-transform: uppercase; }
 
 /* QUICK LINKS MODULES */
+.quick-links-section {
+  margin-top: 0px; }
+
 .quick-links-box {
   margin-bottom: 20px; }
 
@@ -347,12 +352,9 @@ ul.h-contact-info {
 
 .quick-link {
   text-align: center;
-  background: #ffffff;
+  background: #fff;
   padding-top: 5px;
   padding-bottom: 5px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
   border: 1px solid #000;
   text-transform: uppercase; }
 
@@ -360,7 +362,7 @@ ul.h-contact-info {
   display: block; }
 
 .quick-link:hover {
-  background: #d3c473; }
+  background: #1954a0; }
 
 .quick-link span {
   font-size: 16px;
@@ -392,13 +394,13 @@ ul.h-contact-info {
   bottom: -20px; }
 
 .machines-slider .carousel-indicators li {
-  background: #a3a3a3;
+  background: #1954a0;
   border-radius: 50%;
   width: 8px;
   height: 8px; }
 
 .machines-slider .carousel-indicators .active {
-  background: #707070; }
+  background: #ffd781; }
 
 .machines-img-desc-wrapper {
   margin-bottom: 20px; }
@@ -441,66 +443,34 @@ ul.h-contact-info {
   margin-bottom: 10px; }
 
 /* CONTACTS MODULES */
-#map-bg-wrapper {
-  width: 100%;
-  background: url(../img/contact-us.jpg) no-repeat center center;
-  background-size: cover; }
+.contact-info-col {
+  float: right;
+  text-align: right;
+  margin-top: 20px; }
 
-.contact-form-wrapper {
-  width: 80%;
-  background: #fff;
-  padding: 10px; }
+.contact-info-col ul {
+  list-style-type: none; }
 
-.contact-form-wrapper form {
-  margin-bottom: 20px; }
-
-.contact-form-wrapper h3 {
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-bottom: 20px; }
-
-.under-form-wrapper {
-  background: #202e31;
-  width: 80%;
-  color: #fff;
-  padding: 10px; }
-
-.sm-contacts-outer {
-  display: inline-block;
-  vertical-align: top;
-  padding-right: 35px;
+.contact-info-col h3 {
   margin-bottom: 10px; }
 
-.sm-contacts-icon {
-  display: inline-block;
-  vertical-align: middle;
-  width: 30px;
-  font-size: 26px; }
+.contact-info-col p {
+  margin-bottom: 0px; }
 
-.sm-contacts-info {
-  display: inline-block;
-  vertical-align: middle;
-  margin-bottom: 0px;
-  font-size: 14px;
+.contact-info-col h3 {
+  font-size: 16px;
+  font-weight: 600;
   text-transform: uppercase; }
-
-.sm-contacts-info a,
-.sm-contacts-info a:hover {
-  text-decoration: none;
-  color: #fff; }
-
-.sm-text {
-  font-size: 12px; }
-
-.strong-text {
-  font-weight: 700; }
 
 .validation-error {
   background: #fcc;
   border: 1px solid #f99;
   color: #d01313;
-  padding: 10px; }
+  padding: 10px;
+  margin-top: 10px; }
+
+#loader-icon {
+  margin-top: 10px; }
 
 .validation-error p,
 .mail-sent-ok p {
@@ -512,15 +482,32 @@ ul.h-contact-info {
   color: #7ba411;
   position: relative;
   padding: 10px;
-  margin-top: 20px; }
+  margin-top: 10px; }
 
 /* Footer */
 footer {
-  background-color: #202e31 !important;
-  margin-top: 60px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: #fff; }
+  margin-top: 20px; }
+
+.footer-top {
+  width: 100%;
+  background: #ffd781;
+  padding: 10px; }
+
+.footer-bottom {
+  width: 100%;
+  background: #1954a0;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px; }
+
+.left-footer-div {
+  float: left;
+  width: 70%; }
+
+.right-footer-div {
+  float: right;
+  width: 30%;
+  text-align: right; }
 
 footer p {
   margin-bottom: 0px; }
@@ -533,66 +520,48 @@ footer a:hover {
   color: #fff;
   text-decoration: underline; }
 
-.created {
-  padding-top: 12px;
-  float: left; }
-
-.social {
-  float: right; }
-
 @media only screen and (max-width: 991.98px) {
-  /*HEADER */
-  .logo,
-  .top-contacts {
-    float: none !important; }
-  .top-contacts {
-    margin-top: 10px; }
-  .logo {
-    text-align: center; }
-  .logo img {
-    max-width: 200px;
-    height: auto; }
-  /* BIG IMAGE */
-  .big-image-hover {
-    background-color: rgba(211, 196, 115, 0.8);
-    border: 3px solid #fff;
-    padding-left: 10px;
-    padding-right: 10px;
-    line-height: 40px; }
   /* CONTACTS */
-  .contact-form-wrapper,
-  .under-form-wrapper {
-    width: 100%; } }
+  .map-col {
+    margin-top: 20px; }
+  .contact-info-col {
+    float: none;
+    text-align: left; } }
 
 @media only screen and (max-width: 767.98px) {
   /*HEADER */
   .h-outer-wrapper {
     display: block;
-    text-align: center;
     margin-bottom: 10px; }
   .h-contact-icons {
     display: none; }
   .h-contact-info {
     display: block;
-    margin-right: 0px; }
-  /* CONTACTS */
-  .sm-contacts-outer {
-    display: block;
-    margin-bottom: 20px; } }
-
-@media only screen and (max-width: 575.98px) {
-  /* HEADER */
-  .h-contact-icons {
-    display: none; }
-  /* BIG IMAGE */
-  .big-image-hover h1 {
-    font-size: 16px !important; }
-  /* CONTACTS */
-  .sm-contacts-info,
-  .sm-contacts-icon {
-    display: block; } }
+    margin-right: 0px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
+  .h-outer-wrapper {
+    display: inline-block;
+    vertical-align: top; }
+  .third-outer {
+    padding-left: 15px; }
+  .top-contacts {
+    float: none;
+    text-align: center; }
+  .logo {
+    text-align: center;
+    float: none; }
   .big-image-hover {
-    display: none; } }
+    display: none; }
+  /* FOOTER */
+  .left-footer-div, .right-footer-div {
+    float: none;
+    margin-bottom: 10px;
+    width: 100%; }
+  .right-footer-div {
+    text-align: left; } }
+
+@media only screen and (max-width: 320px) {
+  .third-outer {
+    padding-left: 0px; } }

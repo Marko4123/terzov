@@ -7,15 +7,10 @@ $page = "index";
     <div id="wrapper">
     <?php include 'includes/header.php'; ?>
       <main>
-        <div id="big-image">
-          <img src="img/big-image.jpg" alt="Строителна Механизация" />
-          <div class="big-image-hover">
-            <h1>Терзов ЕООД е най-добрият партньор за Вас в строителството!</h1>
-          </div>
-        </div>
-        <div class="section">
+      <div class="section">
           <div class="container">
             <div id="short-description">
+              <h1>Терзов ЕООД е най-добрият партньор за Вас в строителството!</h1>
               <p>
                 Фирма „Терзов”ЕООД е с над 20 годишна практика в областта на
                 отдаването на строителната механизация. През годините се доказва
@@ -31,7 +26,12 @@ $page = "index";
             </div>
           </div>
         </div>
-        <div class="section">
+        <div id="big-image">
+          <div class="container">
+            <img src="img/big-image.jpg" alt="Строителна Механизация" />
+          </div>
+        </div>
+        <div class="section quick-links-section">
           <div class="container">
             <div class="quick-links-row row">
               <div class="quick-links-box col-md-6 col-lg-4">

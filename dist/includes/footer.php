@@ -1,17 +1,23 @@
 <footer>
         <div class="container">
-          <div class="created">
-            <p>
-              &copy;
-              <a href="http://reklamatavi.com" target="_blank"
-                >Reklamatavi.com</a
-              >
-            </p>
+          <div class="footer-top">
+            <div class="left-footer-div">
+              <p>&copy; 2018 Терзов ЕООД </p>
+            </div>
+            <div class="right-footer-div">
+              <a href="https://goo.gl/ArJRMJ" target="_blank"><img src="img/facebook_2.png" alt="Facebook"/></a>
+            </div>
+            <div style="clear:both;"></div>
           </div>
-          <div class="social">
-            <a href="https://goo.gl/ArJRMJ" target="_blank"><img src="img/facebook_2.png" alt="Facebook"/></a>
+          <div class="footer-bottom">
+            <div class="left-footer-div">
+              <p>гр. София, ул. Бесарабия 104 • тел: 0878 259 515; e-mail: terzov_eood@abv.bg</p>
+            </div>
+            <div class="right-footer-div">
+            <p>&copy; Създадено от <a href="http://reklamatavi.com" target="_blank">Reklamatavi.com</a> </p>
+            </div>
+            <div style="clear:both;"></div>
           </div>
-          <div style="clear:both;"></div>
         </div>
       </footer>
       <a href="#top" class="top-btn" id="myBtn"></a>

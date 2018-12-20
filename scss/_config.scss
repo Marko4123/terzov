@@ -20,7 +20,7 @@ body {
   width: 48px;
   height: 48px;
   position: fixed;
-  bottom: 70px;
+  bottom: 100px;
   right: 20px;
   overflow: hidden;
   z-index: 999;
@@ -29,9 +29,23 @@ body {
 button:focus {
   outline: none;
 }
+.btn-primary {
+  color: #fff;
+  background-color: #1954a0 !important;
+  border-color: #1954a0 !important;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ffd781 !important;
+  border-color: #ffd781 !important;
+}
+.btn-primary:focus {
+  box-shadow:none !important;
+  outline: none !important;
+}
 .title {
   text-align: center;
-  border-bottom: 3px solid #d3c473;
+  border-bottom: 3px solid #fed36d;
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
