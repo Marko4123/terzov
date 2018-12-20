@@ -34,13 +34,13 @@ $page = "contacts";
                     </div>
                     <div class="col-md-8 map-col">
                         <div id="map-bg-wrapper">
-                            <iframe src="https://snazzymaps.com/embed/121842" width="100%" height="300px" style="border:none;"></iframe>
+                            <iframe src="https://snazzymaps.com/embed/121842"  style="border:none; width:100%; height:300px;"></iframe>
                         </div>
                         <div class="contact-info-col">
                             <h3>Терзов ЕООД</h3>
-                            <p><b>Адрес:</b> гр. София, ул. Бесарабия 104</p>
-                            <p><b>Телефон:</b> 0878 259 515</p>
-                            <p><b>e-mail:</b> terzov_eood@abv.bg</p>        
+                            <p><strong>Адрес:</strong> гр. София, ул. Бесарабия 104</p>
+                            <p><strong>Телефон:</strong> 0878 259 515</p>
+                            <p><strong>e-mail:</strong> terzov_eood@abv.bg</p>        
                         </div>
                         <div style="clear:both;"></div>
                     </div>
