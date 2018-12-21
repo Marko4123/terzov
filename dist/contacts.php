@@ -12,7 +12,7 @@ $page = "contacts";
             <div class="title"><h1>Контакти</h1></div>
             <div class="contact-form-wrapper">
                 <div class="row">
-                    <div class="col-md-4 contact-form-col">
+                    <div class="col-lg-4 contact-form-col">
                         <form action="http://terzov.reklamatavi.com/contacts" id="frmContact">
                             <div class="form-group">
                                 <label for="name">Вашето име:</label>
@@ -32,7 +32,7 @@ $page = "contacts";
                         <div id="loader-icon" style="display:none;"><img src="img/arrow_loader.gif" alt="loader-icon" /></div>
                         <div id="mail-status"></div>
                     </div>
-                    <div class="col-md-8 map-col">
+                    <div class="col-lg-8 map-col">
                         <div id="map-bg-wrapper">
                             <iframe src="https://snazzymaps.com/embed/121842"  style="border:none; width:100%; height:300px;"></iframe>
                         </div>

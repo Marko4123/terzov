@@ -128,7 +128,7 @@ table {
   border-spacing: 0; }
 
 body {
-  background: url(../img/bg.jpg) repeat;
+  background-color: #e9ebee !important;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -333,9 +333,6 @@ ul.h-contact-info {
   text-transform: uppercase; }
 
 /* QUICK LINKS MODULES */
-.quick-links-section {
-  margin-top: 0px; }
-
 .quick-links-box {
   margin-bottom: 20px; }
 
@@ -541,6 +538,12 @@ footer a:hover {
   .h-contact-info {
     display: block;
     margin-right: 0px; } }
+
+@media only screen and (max-width: 575.98px) {
+  /* HEADER */
+  .logo img {
+    max-width: 250px;
+    height: auto; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {

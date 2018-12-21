@@ -31,7 +31,7 @@ $page = "index";
             <img src="img/big-image.jpg" alt="Строителна Механизация" />
           </div>
         </div>
-        <div class="section quick-links-section">
+        <div class="section">
           <div class="container">
             <div class="quick-links-row row">
               <div class="quick-links-box col-md-6 col-lg-4">
