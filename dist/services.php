@@ -72,7 +72,7 @@ $page = "services";
           <div class="container">
             <div class="quick-links-row row">
               <div class="quick-links-box col-md-6 col-lg-4">
-                <a href="http://terzov.reklamatavi.com/machines#carcranes">
+                <a href="http://terzov.com/machines#carcranes">
                   <div class="quick-link">
                     <img
                       src="img/autocrane.png"
@@ -84,7 +84,7 @@ $page = "services";
                 </a>
               </div>
               <div class="quick-links-box col-md-6 col-lg-4">
-                <a href="http://terzov.reklamatavi.com/machines#dumpers">
+                <a href="http://terzov.com/machines#dumpers">
                   <div class="quick-link">
                     <img
                       src="img/dumpers.png"
@@ -96,7 +96,7 @@ $page = "services";
                 </a>
               </div>
               <div class="quick-links-box col-md-6 col-lg-4">
-                <a href="http://terzov.reklamatavi.com/machines#excavator">
+                <a href="http://terzov.com/machines#excavator">
                   <div class="quick-link">
                     <img
                       src="img/excavator.png"

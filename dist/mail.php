@@ -17,7 +17,7 @@ if (isset($data->success) AND $data->success == true) {
         $mail->Host = "smtp.gmail.com";
         $mail->Port = "587";
         $mail->setFrom(''.$_POST['email'].'', ''.$_POST['name'].'');
-        $mail->AddAddress('marko.uz@abv.bg');
+        $mail->AddAddress('terzov_eood@abv.bg');
         $mail->AddReplyTo('' . $_POST['email'] . '', '' . $_POST['name'] . '');
         $mail->Subject = 'Съобщение от сайта ';
         $mail->IsHTML(true);

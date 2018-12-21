@@ -13,7 +13,7 @@ $page = "contacts";
             <div class="contact-form-wrapper">
                 <div class="row">
                     <div class="col-lg-4 contact-form-col">
-                        <form action="http://terzov.reklamatavi.com/contacts" id="frmContact">
+                        <form action="http://terzov.com/contacts" id="frmContact">
                             <div class="form-group">
                                 <label for="name">Вашето име:</label>
                                 <input type="text" class="form-control" id="name" name="name">

@@ -33,7 +33,7 @@
     ?>
     
     <meta property="fb:app_id" content="743902412647704" />
-    <meta property="og:url" content="http://terzov.reklamatavi.com" />
+    <meta property="og:url" content="http://terzov.com" />
     <meta property="og:type" content="website" />
     <meta
       property="og:description"
@@ -42,6 +42,15 @@
     <meta property="og:title" content="Терзов ЕООД" />
     <meta
       property="og:image"
-      content="http://terzov.reklamatavi.com/img/fb-cover.jpg"
+      content="http://terzov.com/img/fb-cover.jpg"
     />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131270244-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131270244-1');
+      </script>
   </head>
