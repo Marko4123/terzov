@@ -116,14 +116,24 @@
   text-decoration: none;
 }
 .machines-desc {
-  margin-top: 10px;
+  background:#fff;
+  padding:10px;
+  border:1px solid #000;
 }
+.machines-desc ul {
+  margin-top:10px;
+  margin-bottom: 0px;
+}
+.machines-desc-min-height {
+  min-height:135px;
+}
+
 
 .machines-desc h2 {
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 /* CONTACTS MODULES */
